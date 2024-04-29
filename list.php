@@ -17,7 +17,7 @@
        <form action="" method="get">
        <label for="task_name"></label>
        <input type="text" name= "task_name" placeholder="Nome da Tarefa">
-       <button type="submit">Cadastrar</button>
+       <button type="submit">Inserir</button>
        </form>
         </div>
         <div class="separator">
@@ -28,9 +28,22 @@
          <li>Tarefa 2</li>
          <li>Tarefa 3</li>
          </ul>
-         </div>
-        <div class="footer">
-        <p> Desenvolvido por @nomedil/ </p>
+         <ul>
+         <?php
+           if (isset($_SESSION['tasks'])) {
+            foreach($_SESSION['tasks'] as $key => $task) {
+            echo "<li>$task</li>";
+            }
+        }
+        ?>
+           </ul>
+           </div>
+           <form action= "" method="get">
+           <input type= "hidden" name= "clear" value="clear">
+           <button type= "submit" class="bnt-clear">Excluir Tarefas</button>
+           </form><br>
+                   <div class="footer">
+        <p> Desenvolvido por Monolito PHP </p>
         </div>
         </div>
 </body>

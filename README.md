@@ -25,7 +25,7 @@
 - `$_GET`: É uma superglobal em PHP que é usada para coletar dados enviados para o script PHP através de parâmetros de URL. Quando um usuário envia uma solicitação HTTP GET para o servidor, os parâmetros são incluídos na URL como uma string de consulta após o ponto de interrogação 
 - `array_push()`: É uma função em PHP usada para adicionar um ou mais elementos ao final de um array. Ela é útil quando você precisa inserir um novo elemento em um array existente sem saber exatamente qual é o próximo índice disponível.
 - `var_dump()`: É uma função em PHP que é usada para exibir informações detalhadas sobre uma ou mais variáveis, incluindo seu tipo e valor. É especialmente útil para depuração e inspeção de variáveis durante o desenvolvimento de um script PHP.
-- `unset()`: em PHP é usada para destruir uma variável especificada ou vários elementos de um array. Isso libera a memória associada à variável ou remove os elementos do array.
+- `unset()`: Em PHP é usada para destruir uma variável especificada ou vários elementos de um array. Isso libera a memória associada à variável ou remove os elementos do array.
 
 
 ### 🛠️ Tecnologia ultilizadas

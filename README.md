@@ -15,8 +15,8 @@
  ## 📋 Descrição
  Um gerenciador de tarefas e projetos é uma ferramenta que ajuda a organizar e acompanhar as atividades relacionadas a um projeto ou tarefa. Ele permite criar listas de tarefas, atribuir responsabilidades, definir prazos, acompanhar o progresso, compartilhar arquivos e colaborar com outras pessoas. Com um gerenciador de tarefas e projetos, é possível ter uma visão clara do que precisa ser feito, garantindo que nada seja esquecido e que o trabalho seja concluído de forma eficiente. 
  
-## 🔧 Funcionalidades 
-   Recursos
+  ## 🔧 Recursos usados no vídeo
+
 - `Isset`: Em PHP, isset() é uma função utilizada para verificar se uma variável está definida e não é nula. Ela retorna true se a variável existe e possui um valor diferente de null e false caso contrário.
 - `$SESSION`: Normalmente se refere à superglobal "$_SESSION", que é usada para armazenar dados de sessão do usuário entre diferentes requisições HTTP. Uma sessão em PHP é uma maneira de persistir dados do usuário enquanto ele navega pelo site ou aplicativo.
 - `Foreach`: O foreach é uma estrutura de controle em diversas linguagens de programação, incluindo PHP, que é usada para percorrer arrays ou objetos. Ele permite iterar sobre cada elemento de uma lista, aplicando um bloco de código a cada iteração.
